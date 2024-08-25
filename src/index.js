@@ -1,17 +1,17 @@
+// src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { ThemeProvider } from './context/ThemeContext'; // Adjust the path as needed
+import { WebSocketProvider } from './context/WebSocketContext'; // Adjust the path as needed
+import './styles.css'; // Import your styles here
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+root.render(
+  <ThemeProvider>
+    <WebSocketProvider>
+      <App />
+    </WebSocketProvider>
+  </ThemeProvider>
+);
