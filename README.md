@@ -68,3 +68,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+ReachInbox
+ReachInbox is a responsive web application designed to manage and organize emails effectively. It offers user authentication, theming options (light/dark modes), and WebSocket integration for real-time updates.
+
+Table of Contents
+Features
+Tools and Technologies
+Installation
+Deployment
+Usage
+Folder Structure
+Contributing
+License
+Contact
+Features
+
+User Authentication: Secure login functionality.
+Dynamic Theming: Toggle between light and dark modes.
+WebSocket Integration: Real-time updates using WebSockets.
+Responsive Design: Optimized for various devices.
+Tools and Technologies
+
+Frontend
+React.js: A JavaScript library for building user interfaces.
+React Router: Handles navigation and routing.
+Context API: Manages global state for theming.
+WebSocket: Enables real-time communication between the client and the server.
+CSS3: Used for styling the application.
+
+Backend
+Node.js: JavaScript runtime environment.
+Express.js: Web framework for Node.js.
+WebSocket Server: Handles WebSocket connections.
+
+Deployment
+Netlify: For frontend deployment.
+Heroku (Optional): For backend deployment, if required.
+Version Control
+Git: For version control.
+GitHub: For hosting the project repository.
+Installation
+Prerequisites
+
+Ensure the following are installed on your system:
+Node.js (version 14.x or higher)
+npm (version 6.x or higher) or yarn (version 1.x or higher).
